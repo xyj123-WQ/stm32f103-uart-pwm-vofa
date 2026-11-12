@@ -1,0 +1,28 @@
+--cpu Cortex-M3
+"project_pwm_key\startup_stm32f103xb.o"
+"project_pwm_key\main.o"
+"project_pwm_key\gpio.o"
+"project_pwm_key\i2c.o"
+"project_pwm_key\tim.o"
+"project_pwm_key\stm32f1xx_it.o"
+"project_pwm_key\stm32f1xx_hal_msp.o"
+"project_pwm_key\stm32f1xx_hal_gpio_ex.o"
+"project_pwm_key\stm32f1xx_hal_i2c.o"
+"project_pwm_key\stm32f1xx_hal.o"
+"project_pwm_key\stm32f1xx_hal_rcc.o"
+"project_pwm_key\stm32f1xx_hal_rcc_ex.o"
+"project_pwm_key\stm32f1xx_hal_gpio.o"
+"project_pwm_key\stm32f1xx_hal_dma.o"
+"project_pwm_key\stm32f1xx_hal_cortex.o"
+"project_pwm_key\stm32f1xx_hal_pwr.o"
+"project_pwm_key\stm32f1xx_hal_flash.o"
+"project_pwm_key\stm32f1xx_hal_flash_ex.o"
+"project_pwm_key\stm32f1xx_hal_exti.o"
+"project_pwm_key\stm32f1xx_hal_tim.o"
+"project_pwm_key\stm32f1xx_hal_tim_ex.o"
+"project_pwm_key\system_stm32f1xx.o"
+"project_pwm_key\oled.o"
+--strict --scatter "project_PWM_key\project_PWM_key.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "project_PWM_key.map" -o project_PWM_key\project_PWM_key.axf
